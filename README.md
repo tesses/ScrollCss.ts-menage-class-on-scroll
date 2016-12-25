@@ -2,7 +2,7 @@
 ### http://codepen.io/davideTessari/pen/bBypzG
 Menage your css class on scroll in javascript (typescript).
 
-Class usage:
+### Class usage:
     /* option */
     var element = [".element1","element2"]; // Array or string with the css/id selector
     var className = ["css_class1","css_class2"]; // Array or string with the css
