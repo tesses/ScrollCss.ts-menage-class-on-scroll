@@ -41,13 +41,12 @@ class ScrollCss implements ScrollPar {
     this.start();
   }
 
-  // checkup if element exists
-  public start() {
+  private start() {
     let x = this;
     window.onscroll = function(){x.scroll(x); };
     window.onload = function(){x.scroll(x); };
   }
-
+   
   private scroll(that): any {
     let page = {
                   min : window.pageYOffset - that.range,
@@ -89,7 +88,8 @@ class ScrollCss implements ScrollPar {
       }
     }
   }
-
+  
+  // return a true if the array is an array
   private isArray(Array) {
      return Array.constructor.toString().indexOf("Array") > -1;
   }
