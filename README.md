@@ -11,4 +11,4 @@ Menage your css class on scroll in javascript (typescript).
     var range = 300;                             // number optional. The range of the trigger.
   
     /* class */
-    var an = new ScrollCss(element, className, reverse, associates, 300);
+    var an = new ScrollCss(element, className, reverse, associates, range);
