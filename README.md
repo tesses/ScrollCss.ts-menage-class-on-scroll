@@ -3,7 +3,7 @@
 Menage your css class on scroll in javascript (typescript).
 
 ### Class usage:
-    /* option */
+    /* Parameters */
     var element = [".element1","element2"];      // Array or string with the css/id selector
     var className = ["css_class1","css_class2"]; // Array or string with the css
     var reverse = true;                          // boolean Optional. When you exit at the range of the element the css class is removed
